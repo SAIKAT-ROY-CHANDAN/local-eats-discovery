@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "firebase": "^10.11.0",
     "formik": "^2.4.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
