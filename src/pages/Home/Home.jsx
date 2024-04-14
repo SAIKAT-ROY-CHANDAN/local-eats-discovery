@@ -1,11 +1,11 @@
 import logo from "/src/assets/logo 1.png";
 import searchIcon from "/src/assets/search.svg";
-import "./style.css";
+import "./home.css";
 
 export const Home = () => {
   return (
     <>
-      <div className="coverImg">
+      <div className="cvrImg">
         <div className="flex gap-2 justify-end pt-6 pr-10">
           <button className="bg-white hover:bg-[#3D83D9] hover:text-white hover:scale-95 hover:trans w-28 py-3 px-[2px] text-[#3D83D9] rounded-2xl font-bold">
             Sign Up
