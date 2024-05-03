@@ -64,10 +64,6 @@ export const OwnerProfile = () => {
           latitude: selectedPlace?.latitude,
           longitude: selectedPlace?.longitude,
         },
-        // location: {
-        //   latitude: selectedPlace?.latitude || latitude,
-        //   longitude: selectedPlace?.longitude || longitude,
-        // },
       };
       setDemoValues(formData);
 

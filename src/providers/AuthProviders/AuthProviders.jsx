@@ -59,12 +59,10 @@ const AuthProviders = ({ children }) => {
               longitude,
             });
 
-            // console.log(latitude, longitude);
-            // Reverse geocode
+            
             const response = await fromLatLng(latitude, longitude);
             const address = response.results[0].formatted_address;
             setAddress(address);
-            // console.log(address);
             const restaurants = await fetchRestaurants();
 
              const filtered = await filterRestaurantsByDistance(
